@@ -18,7 +18,7 @@ from selfdrive.loggerd.config import ROOT
 from selfdrive.swaglog import cloudlog
 
 NetworkType = log.DeviceState.NetworkType
-UPLOAD_ATTR_NAME = 'user.upload7'
+UPLOAD_ATTR_NAME = 'user.upload'
 UPLOAD_ATTR_VALUE = b'1'
 
 allow_sleep = bool(os.getenv("UPLOADER_SLEEP", "1"))
